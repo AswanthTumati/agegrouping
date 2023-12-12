@@ -5,7 +5,7 @@ import { DeleteOutlined, EditOutlined } from '@ant-design/icons';
 
 
 const TableComponent = ({ userData,  handleDelete, handleSort }) => {
-    const [tableData, setTableData] = useState([]);
+    
     const navigate = useNavigate();
     const [searchTerm, setSearchTerm] = useState('');
     const [searchMessage, setSearchMessage] = useState('');
